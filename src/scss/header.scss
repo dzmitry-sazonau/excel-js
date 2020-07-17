@@ -11,9 +11,6 @@
   display: flex;
   justify-content: space-between;
 
-  // temp
-  //background: aqua;
-
   & .input {
     margin: 0;
     padding: 2px 7px;
@@ -35,7 +32,7 @@
     }
   }
 
-  &.button {
+  .button {
     @include button(red);
   }
 
